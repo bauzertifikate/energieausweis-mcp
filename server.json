@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "de.energieausweis-express/energieausweis",
+  "title": "Energieausweis Express",
+  "description": "Prepare a German Energieausweis (energy certificate); an Energieberater checks and signs it.",
+  "repository": {
+    "url": "https://github.com/bauzertifikate/energieausweis-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://energieausweis-express.de/ki-assistent",
+  "icons": [
+    {
+      "src": "https://energieausweis-express.de/apple-icon",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    },
+    {
+      "src": "https://energieausweis-express.de/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://energieausweis-express.de/mcp"
+    }
+  ]
+}
